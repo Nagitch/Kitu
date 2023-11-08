@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  logic-processing-lib:
+    build: ./logic-processing-lib
+    volumes:
+      - ./logic-processing-lib
+      - ./logic-processing-lib-dist
